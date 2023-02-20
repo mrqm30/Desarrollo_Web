@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botones</title>
+
+    <style>
+        body{
+            background-color: #f2f2f2;
+            font-family: sans-serif;
+        }
+
+        div{
+            margin: 20px 0;
+        }
+
+        .btn{
+            background-color: rgb(133, 144, 228);
+            color: rgb(222, 227, 227);
+            font-size: 16px;
+            padding: 15px 20px;
+            margin: 0 10px;
+            border-style: none;
+        }
+        .btn:hover{
+            opacity: 0.8;
+            cursor: pointer;
+        }
+        /*Tama{o*/
+        .small{
+            font-size: 14px;
+            padding: 10px 15px;
+        }
+
+        .medium{
+            font-size: 16px;
+            padding: 15px 20px;
+        }
+
+        .large{
+            font-size: 18px;
+            padding: 20px 25px;
+        }
+        /*Colores*/
+        .azul{
+            background: rgba(16, 90, 218, 0.975);
+        }
+        .verde{
+            background: rgba(43, 196, 142, 0.975);
+        }
+        .naranja{
+            background: rgba(243, 111, 50, 0.975);
+        }
+        /*Efectos*/
+        .borde{
+            border-radius: 35px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div>
+        <button class="btn">Click Aquí</button>
+    </div>
+
+    <div>
+        <button class="btn small azul">Botón Small</button>
+        <button class="btn medium verde">Botón medium</button>
+        <button class="btn large naranja">Botón large</button>
+    </div>
+
+    <div>
+        <button class="btn small azul borde">Botón Small</button>
+        <button class="btn medium verde borde">Botón medium</button>
+        <button class="btn large naranja borde">Botón large</button>
+    </div>
+
+</body>
+</html>
