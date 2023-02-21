@@ -44,12 +44,13 @@ body{
     margin: auto;
     padding: 10px;
     overflow:hidden;
+    max-width: 1000px;
 }
 
 /*Cajas*/
 .box{
-    width: 535px;
-    height: 700px;
+    width: 30%;
+    height: 600px;
     border: 3px solid #253062;
     border-radius: 10px;
     margin: 15px;
@@ -104,4 +105,32 @@ body{
 }
 .box-main__btn:active{
     background-color: #4c5580;
+}
+
+/*Web Responsive*/
+@media screen and (max-width: 1022px) {
+    .figures{
+        width: 100%;
+    }
+}
+
+@media  screen and (max-width:814px) {
+    .box{
+        margin: 10px;
+    }
+}
+
+@media  screen and (max-width:600px) {
+    .box{
+        width: 90%;
+        margin: 25px;
+        height: auto;
+    }
+}
+@media  screen and (max-width:667px) {
+    .box{
+        width: 90%;
+        margin: 25px;
+        height: auto;
+    }
 }
