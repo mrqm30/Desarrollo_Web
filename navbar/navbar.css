@@ -14,12 +14,25 @@ nav{
     display: flex;
     justify-content: space-around;
 }
+.nav-boton{
+    background: salmon;
+    color: #fff;
+    border: 2px solid #fff;
+    display: none;
+
+}
 @media(max-width: 600px){
     nav{
-        background: #d869ee;
+        background: #4b434c;
         flex-direction: column;
     }
     .nav-enlace{
         margin: 10px 0px;
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+    .desaparece{
+        display: none;
     }
 }
