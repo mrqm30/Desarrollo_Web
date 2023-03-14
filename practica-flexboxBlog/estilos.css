@@ -1,40 +1,52 @@
 *{
-    margin: 10px;
+    margin: 0px;
     padding: 10px;
     box-sizing: border-box;
 }
-
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+}
 .padre{
     background: #2c3333;
     display: flex;
     flex-flow: column nowrap;
 }
     .header{
-        background: #2E4F4F;
+        background: url(nate-grant-QQ9LainS6tI-unsplash.jpg);
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
         display: flex;
         flex-flow: column nowrap;
     }
         .menu{
-            background: #375d5f;
+            background: rgba(0, 0, 0, 0.2);
             display: flex;
             flex-flow: row nowrap;
-            height: 100px;
+            height: 60px;
             align-items: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.5);
         }
             .logo{
-                background: #0E8388;
                 flex: 1 1 auto;
-                height: 30px;
             }
+                .logo a{
+                    color:#f4f5f8;
+                    text-decoration: none;
+                }
+                .logo a:hover{
+                    color: #2E4F4F;
+                }
             .nav{
-                background: #0E8388;
+                
                 flex: 5 1 auto;
-                height: 30px;
             }
             .social{
-                background: #0E8388;
+                
                 flex: 1 1 auto;
-                height: 30px;
+                display: flex;
             }
         .texto-principal{
             background: #CBE4DE;
